@@ -267,22 +267,13 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: GFG Hackathon Winner
+        content:  Led a team to victory in the GFG Hackathon, developing a solution for Personal Finance Management.
+        image: /images/hackathon.jpg
+      - title: TEDx Curator
+        content:  Curated a TEDx event, collaborating with speakers and coordinating logistics to deliver impactful talks to audience.
+        image: /images/Tedx4.png
+      
 
   # projects
   projects:
