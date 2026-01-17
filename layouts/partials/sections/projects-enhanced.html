@@ -25,7 +25,8 @@
                         {{ if .links }}
                         <div class="project-buttons">
                             {{ range .links }}
-                            <a href="{{ .url }}" target="_blank" class="project-btn {{ if eq .name "Live Demo" }}primary{{ else }}secondary{{ end }}">
+                            <a href="{{ .url }}" target="_blank" class="project-btn {{ if eq .name " Live Demo"
+                                }}primary{{ else }}secondary{{ end }}">
                                 <i class="{{ .icon }}"></i>
                                 {{ .name }}
                             </a>
