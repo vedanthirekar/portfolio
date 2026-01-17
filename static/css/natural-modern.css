@@ -621,8 +621,10 @@ header {
 #projects .card-img-top {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
+  object-position: top center !important;
   transition: var(--transition-normal) !important;
+  border-radius: var(--border-radius-lg) !important;
 }
 
 #projects .card:hover .card-img-top {
