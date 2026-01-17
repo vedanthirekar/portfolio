@@ -90,24 +90,24 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # Modern color scheme with better contrast and visual appeal
+  # Natural, professional color scheme
   color:
-    textColor: "#2d3748"
-    secondaryTextColor: "#4a5568"
-    textLinkColor: "#667eea"
-    backgroundColor: "#f7fafc"
-    secondaryBackgroundColor: "#ffffff"
-    primaryColor: "#667eea"
-    secondaryColor: "#edf2f7"
+    textColor: "#2C3E2C"
+    secondaryTextColor: "#495057"
+    textLinkColor: "#A1BC98"
+    backgroundColor: "#F1F3E0"
+    secondaryBackgroundColor: "#FFFFFF"
+    primaryColor: "#A1BC98"
+    secondaryColor: "#D2DCB6"
 
     darkmode:
-      textColor: "#e2e8f0"
-      secondaryTextColor: "#a0aec0"
-      textLinkColor: "#90cdf4"
-      backgroundColor: "#1a202c"
-      secondaryBackgroundColor: "#2d3748"
-      primaryColor: "#90cdf4"
-      secondaryColor: "#2d3748"
+      textColor: "#F1F3E0"
+      secondaryTextColor: "#D2DCB6"
+      textLinkColor: "#A1BC98"
+      backgroundColor: "#1a1f1a"
+      secondaryBackgroundColor: "#2a2f2a"
+      primaryColor: "#A1BC98"
+      secondaryColor: "#6B8E6B"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -132,10 +132,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "👋 Hi, my name is"
+    intro: "Hi, my name is"
     title: "Vedant Hirekar"
-    subtitle: "Data Scientist & Analytics Enthusiast"
-    content: "I transform complex data into actionable insights using machine learning, statistical analysis, and creative problem-solving. Passionate about leveraging data to drive meaningful impact."
+    subtitle: ""
+    content: "I learn how software and AI systems work by building them - focusing on fundamentals, simplicity and real-world use."
     image: /images/dp4.jpeg
     bottomImage:
       enable: true
@@ -143,7 +143,7 @@ params:
     button:
       enable: true
       name: "View Resume"
-      url: "https://drive.google.com/file/d/1KKhnENk0UbU917LBkM5-1HNi3NXA_dzu/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1OfIDYpAXF9OLgLKKwVNLdqEufnBr_za1/view?usp=sharing"
       download: true
       newPage: true
     socialLinks:
@@ -159,42 +159,40 @@ params:
     title: "About Me"
     image: "/images/dp3.jpeg"
     content: |-
-      I'm a passionate data scientist with a keen eye for uncovering insights hidden within complex datasets. Currently pursuing my Master's in Data Science at Indiana University, I combine technical expertise with creative problem-solving to build impactful solutions.
+      I'm someone with an open mind, always learning. Currently pursuing my Master's in Data Science at Indiana University, driven by curiosity about how complex things break down into simple, manageable parts.
       
-      My experience spans machine learning, computer vision, and analytics, with hands-on projects in retail forecasting and healthcare data pipelines. I thrive on challenges that push me to learn and grow, always seeking innovative ways to optimize processes and deliver results.
+      My experience spans software fundamentals to ML, GenAI, computer vision, analytics, data engineering, and visualization learned through internships, coursework, and building things.
     skills:
       enable: true
-      title: "Technologies & Skills I work with:"
+      title: "My Technical Forte"
       items:
-        - "Python & R"
-        - "Machine Learning"
-        - "Power BI & Tableau"
-        - "Computer Vision"
-        - "SQL & MongoDB"
-        - "Deep Learning"
+        - "**Software Engineering :**  Python, SQL, MongoDB, System Fundamentals"
+        - "**AI & Data Systems :**  ML, Generative AI, LLM pipelines, Computer Vision"
+        - "**Infrastructure :**  Linux, Git, Docker, Cloud basics"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Data Science Intern"
-        company: "Krios Info Solutions"
-        companyUrl: "https://kriosispl.com/index.html"
-        date: "Mar 2023 - May 2023"
+
+      - job: "AI Developer Intern"
+        company: "Methix"
+        companyUrl: "https://www.linkedin.com/company/mymethix/posts/?feedView=all"
+        date: "June 2025 - Dec 2025"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: |
-          Developed a retail sales forecasting system using advanced time-series analysis to predict product demand with high accuracy. Created interactive Power BI dashboards that transformed complex data into actionable insights for stakeholders.
+          Worked on a retrieval-augmented AI assistant for artists, focused on integrating internal knowledge sources, structured artist data, and cloud-based LLM pipelines on Azure.
                     
           **Key Achievements:**
-          - Built predictive models for retail demand forecasting
-          - Designed interactive dashboards for data visualization
-          - Improved decision-making through data-driven insights
-          
-          **Skills Developed:** Python, Power BI, Time Series Analysis, Data Preprocessing
+          - Built a RAG pipelin with Azure OpenAI and LangChain over 50+ internal documents stored in Azure Blob Storage.
+          - Implemented prompt-driven retrieval and NoSQL queries over 200+ JSON artist profiles in Azure Cosmos DB.
+          - Tuned Azure deploymeents and inference settings to optimize AI search pipelines and reduce cloud costs.
+
+          **Skills Developed:** Azure OpenAI, LangChain, Retrieval-Augmented Generation, Azure Cloud, CI/CD
 
 
       - job: "SMO Intern"
@@ -208,14 +206,34 @@ params:
           enable: true
           content: 
         content: |
-          Enhanced front-end performance by debugging and resolving critical issues in JavaScript, HTML/CSS, and Angular. Implemented comprehensive unit testing with Jest, automating GUI validation and accelerating feature development cycles.
-
-          **Key Achievements:**
-          - Improved application performance and user experience
-          - Reduced testing time through automation
-          - Contributed to telecom infrastructure development
+          Enhanced front-end performance by debugging and fixing production UI issues, and implemented unit tests to automate GUI validation, reducing manual testing and speeding up feature iterations.
           
-          **Skills Developed:** Angular, JavaScript, HTML/CSS, Go, Jest, ORAN Architecture
+          **Key Achievements:**
+          - Diagnosed and fixed front-end performance and rendering issues in production Angular components.
+          - Added unit tests with Jest to automate GUI validation and reduce manual testing effort.
+          
+          **Skills Developed:** Angular, JavaScript, HTML/CSS, Jest
+
+
+      - job: "Data Science Intern"
+        company: "Krios Info Solutions"
+        companyUrl: "https://kriosispl.com/index.html"
+        date: "Mar 2023 - May 2023"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |
+          Developed a retail sales forecasting system using advanced time-series analysis to predict product demand with high accuracy. Created interactive Power BI dashboards that transformed complex data into actionable insights for stakeholders.
+                    
+          **Key Achievements:**
+          - Prepared and transformed historical sales data for 300+ SKUs into a model-ready dataset.
+          - Assisted in evaluating forecasting models through validation, hyperparameter tuning, and error analysis.
+          - Built Power BI dashboards to compare SKU-level forecasts with historical sales and highlight seasonal trends.
+
+          
+          **Skills Developed:** Python, Power BI, Time Series Analysis, Data Preprocessing
+
 
 
   # Education
@@ -229,14 +247,22 @@ params:
           name: "Indiana University, Bloomington"
           url: "https://bloomington.iu.edu/index.html"
         date: "2024 - 2026"
-        GPA: "3.6 out of 4.0"
+        GPA: "3.8 out of 4.0"
         content: |-
           **Relevant Coursework:**
-          - Computer Vision & Image Processing
-          - Machine Learning & Deep Learning
-          - Big Data Analytics & Cloud Computing
-          - Statistical Methods & Data Mining
-          - Advanced Database Systems
+          - Research in Multi-Agent Systems and Reinforcement Learning
+          - Computer Vision
+          - Applied Machine Learning
+          - Information Visualization
+          - Management, Access and Use of Big Data
+          - Statistics
+          - Advanced Database Technologies
+        featuredLink:
+          enable: true
+          name: "View Academic Record"
+          url: "https://drive.google.com/file/d/1AWM9YvbbD8M5D7mOGXu64U-fMvym-ilk/view?usp=sharing"
+          # download: true
+          newPage: true
 
       - title: "Bachelor of Engineering in AI and Data Science"
         school:
@@ -246,11 +272,11 @@ params:
         GPA: "3.6 out of 4.0"
         content: |-
           **Relevant Coursework:**
+          - Software Engineering
           - Data Structures & Algorithms
           - Machine Learning & Deep Learning
           - Big Data Analytics
           - Database Management Systems
-          - Software Engineering
 
         featuredLink:
           enable: true
@@ -265,11 +291,14 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: 🏆 GFG Hackathon Winner
-        content: Led a cross-functional team to victory in the GeeksforGeeks Hackathon, developing an innovative Personal Finance Management solution that impressed judges with its AI-powered features and user-centric design.
+      - title: Honorable mention in the InnoQuest 2025
+        content: Recieved an honorable mention in the InnoQuest 2025 hosted by the Shoemaker Innovation Center at Indiana University for building an AI Assistant builder which enables SMBs to get onboard with using AI on their data with 3-4 simple steps. 
+        image: /images/innoquest.jpg
+      - title: GFG Hackathon Winner
+        content: Won the GeeksforGeeks Hackathon by building a personal finance management application with AI-based voice-to-text expense logging and expense forecasting features
         image: /images/hackathon.jpg
-      - title: 🎤 TEDx Curator
-        content: Curated and organized a TEDx event, collaborating with inspiring speakers and coordinating all logistics to deliver impactful talks that resonated with a diverse audience of 500+ attendees.
+      - title: TEDx Curator
+        content: Organized a TEDx event by coordinating speakers and logistics, delivering talks to an audience of 500+ attendees.
         image: /images/Tedx4.png
       
 
@@ -278,12 +307,57 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+
+      - title: SOFI 2035
+        content: Built an interactive dashboard for the Clent The Millenium Project, enabling users to explore global development trends across economic, social, environmental, governance, and technology indicators through dynamic visualizations and scenario analysis. 
+        image: /images/sofi.png
+        # featured:
+        #   name: View on GitHub
+        #   link: https://github.com/vedanthirekar/SOFI-2035-Info-Viz-Project
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/SOFI-2035-Info-Viz-Project
+            name: "GitHub"
+          - icon: fas fa-external-link-alt
+            url: https://sofi2035.pythonanywhere.com/
+            name: "Live Demo"
+        badges:
+          - "Data Visualization"
+          - "Plotly"
+          - "Data Pre-Processing"
+          
+
+  
+
+      - title: Healthcare Data Pipeline
+        content: Focusing on the Data Pipelines and Workflow Orchestration module, this project implements an
+          end-to-end automated ETL pipeline that detects incoming FHIR patient bundles, extracts
+          information, and outputs structured CSV files ready for downstream analytics and visualization
+          tools like Tableau or Power BI.
+        image: /images/healthcare.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/healthcare-data-pipeline
+            name: "GitHub"
+          # - icon: fas fa-external-link-alt
+          #   url: https://your-yafa-demo-url.com
+          #   name: "Live Demo"
+        badges:
+          - "Airflow"
+          - "PySpark"
+          - "Data Engineering"
+          - "FHIR HL7 Data Standards"
+
       - title: Yafa - AI-Powered Personal Finance Manager
         content: An intelligent finance application featuring AI-enabled voice recognition and NLP for seamless expense tracking. Provides detailed expense analysis, spending patterns, and personalized investment recommendations to help users make smarter financial decisions.
         image: /images/yafa.png
-        featured:
-          name: View on GitHub
-          link: https://github.com/vedanthirekar/Yafa-Personal-Finance-Manager
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/Yafa-Personal-Finance-Manager
+            name: "GitHub"
+          # - icon: fas fa-external-link-alt
+          #   url: https://your-yafa-demo-url.com
+          #   name: "Live Demo"
         badges:
           - "NLP"
           - "AI/ML"
@@ -308,7 +382,7 @@ params:
     # title: "Custom Name"
     content: I'm always open to discussing new opportunities, collaborations, or just having a chat about data science and technology. Whether you have a question, project idea, or just want to connect, feel free to reach out!
     btnName: Get In Touch
-    btnLink: mailto:vedanthirekar@gmail.com
+    btnLink: mailto:hirekarvedant@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

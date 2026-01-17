@@ -1,0 +1,20 @@
+/* ============================================
+   COMPLETE MODERN PORTFOLIO REVAMP
+   Inspired by contemporary web design
+   ============================================ */
+
+/* CSS Variables for the new design system */
+:root {
+  /* Primary Colors */
+  --primary: 59 130 246; /* Blue */
+  --primary-foreground: 255 255 255;
+  
+  /* Background Colors */
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  
+  /* Muted Colors */
+  --muted: 248 250 252;
+  --
