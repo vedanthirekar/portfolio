@@ -577,13 +577,13 @@ header {
 
 /* Style the original theme's project cards with proper sizing */
 #projects .container {
-  max-width: 1400px !important;
+  max-width: 1200px !important;
   width: 95% !important;
 }
 
 #projects .row {
   display: grid !important;
-  grid-template-columns: repeat(5, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 2rem !important;
   margin: 0 !important;
 }
@@ -604,6 +604,7 @@ header {
   border: 2px solid transparent !important;
   transition: var(--transition-normal) !important;
   margin: 0 !important;
+  padding: 1.5rem !important;
 }
 
 #projects .card:hover {
@@ -613,14 +614,14 @@ header {
 }
 
 #projects .card-head {
-  height: 200px !important;
+  height: 180px !important;
   overflow: hidden !important;
 }
 
 #projects .card-img-top {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   transition: var(--transition-normal) !important;
 }
 
@@ -629,7 +630,7 @@ header {
 }
 
 #projects .card-body {
-  padding: 2rem !important;
+  padding: 1rem !important;
   flex-grow: 1 !important;
   display: flex !important;
   flex-direction: column !important;
@@ -661,7 +662,7 @@ header {
 }
 
 #projects .card-footer {
-  padding: 1.5rem 2rem !important;
+  padding: 0rem 0rem !important;
   background: transparent !important;
   border: none !important;
 }
@@ -685,7 +686,7 @@ header {
   }
 } */
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   #projects .row {
     grid-template-columns: repeat(3, 1fr) !important;
   }
@@ -706,7 +707,7 @@ header {
 #projects .row {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
-  gap: 1.5rem !important;
+  gap: 2rem !important;
   margin: 0 !important;
 }
 
