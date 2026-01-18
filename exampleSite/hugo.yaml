@@ -192,7 +192,7 @@ params:
           - Implemented prompt-driven retrieval and NoSQL queries over 200+ JSON artist profiles in Azure Cosmos DB.
           - Tuned Azure deploymeents and inference settings to optimize AI search pipelines and reduce cloud costs.
 
-          **Skills Developed:** Azure OpenAI, LangChain, Retrieval-Augmented Generation, Azure Cloud, CI/CD
+          **Skills Developed/ Tools Used:** Azure OpenAI, LangChain, Retrieval-Augmented Generation, Azure Cloud, CI/CD
 
 
       - job: "SMO Intern"
@@ -212,7 +212,7 @@ params:
           - Diagnosed and fixed front-end performance and rendering issues in production Angular components.
           - Added unit tests with Jest to automate GUI validation and reduce manual testing effort.
           
-          **Skills Developed:** Angular, JavaScript, HTML/CSS, Jest
+          **Skills Developed/ Tools Used:** Angular, JavaScript, HTML/CSS, Jest
 
 
       - job: "Data Science Intern"
@@ -232,7 +232,7 @@ params:
           - Built Power BI dashboards to compare SKU-level forecasts with historical sales and highlight seasonal trends.
 
           
-          **Skills Developed:** Python, Power BI, Time Series Analysis, Data Preprocessing
+          **Skills Developed/ Tools Used:** Python, Power BI, Time Series Analysis, Data Preprocessing
 
 
 
