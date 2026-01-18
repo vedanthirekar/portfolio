@@ -316,12 +316,13 @@ header {
   transform: translateY(-2px);
 }
 
-.hero-image {
+#hero .image {
   text-align: center;
   animation: fadeInUp 1s ease 0.4s both;
+  margin-top: -20px !important;
 }
 
-.hero-image img {
+#hero .image img {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -329,6 +330,15 @@ header {
   box-shadow: var(--shadow-lg);
   border: 4px solid var(--surface-color);
   transition: var(--transition-normal);
+}
+
+/* Explicitly disable effects from index.css */
+#hero .image img:hover,
+#hero .image.animate img:hover {
+  transform: none !important;
+  box-shadow: var(--shadow-lg) !important;
+  filter: none !important;
+  cursor: default !important;
 }
 
 .hero-image img:hover {

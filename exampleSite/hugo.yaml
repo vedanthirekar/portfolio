@@ -164,7 +164,7 @@ params:
       My experience spans software fundamentals to ML, GenAI, computer vision, analytics, data engineering, and visualization learned through internships, coursework, and building things.
     skills:
       enable: true
-      title: "My Technical Forte"
+      title: "My Technical Forte: "
       items:
         - "**Software Engineering :**  Python, SQL, MongoDB, System Fundamentals"
         - "**AI & Data Systems :**  ML, Generative AI, LLM pipelines, Computer Vision"
