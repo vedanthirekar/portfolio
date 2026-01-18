@@ -585,6 +585,14 @@ header {
   color: var(--text-secondary);
 }
 
+
+#experience .experience-container {
+  padding-top: 1rem !important;
+  /* padding-bottom: 2rem !important; */
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
 /* Style the original theme's project cards with proper sizing */
 #projects .container {
   max-width: 1200px !important;

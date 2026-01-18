@@ -94,7 +94,7 @@ params:
   color:
     textColor: "#2C3E2C"
     secondaryTextColor: "#495057"
-    textLinkColor: "#A1BC98"
+    textLinkColor: "#768b6f"
     backgroundColor: "#F1F3E0"
     secondaryBackgroundColor: "#FFFFFF"
     primaryColor: "#A1BC98"
@@ -245,7 +245,7 @@ params:
       - title: "Master of Science in Data Science"
         school:
           name: "Indiana University, Bloomington"
-          url: "https://bloomington.iu.edu/index.html"
+          # url: "https://bloomington.iu.edu/index.html"
         date: "2024 - 2026"
         GPA: "3.8 out of 4.0"
         content: |-
