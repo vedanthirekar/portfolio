@@ -397,9 +397,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: I'm always open to discussing new opportunities, collaborations, or just having a chat about data science and technology. Whether you have a question, project idea, or just want to connect, feel free to reach out!
-    btnName: Get In Touch
-    btnLink: mailto:hirekarvedant@gmail.com
+    content: I'm open to discussing new opportunities, collaborations, or just having a chat about technology. Feel free to reach out!
+    # btnName: Email Me
+    # btnLink: mailto:hirekarvedant@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -415,6 +415,7 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
+      email: mailto:hirekarvedant@gmail.com
       github: https://github.com/vedanthirekar
       linkedin: https://www.linkedin.com/in/vedanthirekar
       # twitter: https://twitter.com
