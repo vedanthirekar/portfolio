@@ -1,7 +1,7 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Vedant Hirekar Portfolio"
-theme: hugo-profile
+theme: portfolio
 
 outputs:
   home:
@@ -90,25 +90,24 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+  # Natural, professional color scheme
+  color:
+    textColor: "#2C3E2C"
+    secondaryTextColor: "#495057"
+    textLinkColor: "#768b6f"
+    backgroundColor: "#F1F3E0"
+    secondaryBackgroundColor: "#FFFFFF"
+    primaryColor: "#A1BC98"
+    secondaryColor: "#D2DCB6"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+    darkmode:
+      textColor: "#F1F3E0"
+      secondaryTextColor: "#D2DCB6"
+      textLinkColor: "#A1BC98"
+      backgroundColor: "#1a1f1a"
+      secondaryBackgroundColor: "#2a2f2a"
+      primaryColor: "#A1BC98"
+      secondaryColor: "#6B8E6B"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -135,25 +134,22 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Vedant Hirekar"
-    subtitle: "I work with data to understand what it conveys"
-    content: "I make use of tools, techniques, statistics and beyond to uncover information from the data and solve problems"
+    subtitle: ""
+    content: "I learn how software and AI systems work by building them - focusing on fundamentals, simplicity and real-world use."
     image: /images/dp4.jpeg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: false # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
-      url: "https://drive.google.com/file/d/1KKhnENk0UbU917LBkM5-1HNi3NXA_dzu/view?usp=sharing"
+      name: "View Resume"
+      url: "https://drive.google.com/file/d/1OfIDYpAXF9OLgLKKwVNLdqEufnBr_za1/view?usp=sharing"
       download: true
       newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/vedanthirekar
-        # - icon: fab fa-x-twitter
-        #   url: https://example.com
-      # customIcons:
         - icon: fab fa-linkedin
           url: "https://www.linkedin.com/in/vedanthirekar"
 
@@ -163,43 +159,40 @@ params:
     title: "About Me"
     image: "/images/dp3.jpeg"
     content: |-
-      I am an individual eager to apply my learnings to solve problems faced in the practial world. With an open mind, I am always ready to learn and embrace new perspectives. I love finding creative ways to optimize everything I do.
+      I'm someone with an open mind, always learning. Currently pursuing my Master's in Data Science at Indiana University, driven by curiosity about how complex things break down into simple, manageable parts.
       
-      I am currently pursuing my Master's in Data Science and have experience in ML and analytics. I have worked on projects like Forecasting Retail Sales and building Healthcare piplines. 
+      My experience spans software fundamentals to ML, GenAI, computer vision, analytics, data engineering, and visualization learned through internships, coursework, and building things.
     skills:
       enable: true
-      title: "Here are a few technologies/areas I've been working with recently:"
+      title: "My Technical Forte: "
       items:
-        - "Python"
-        - "Power BI"
-        - "MongoDB"
-        - "SQL"
-        - "Computer Vison"
-        - "Machine Learning"
+        - "**Software Engineering :**  Python, SQL, MongoDB, System Fundamentals"
+        - "**AI & Data Systems :**  ML, Generative AI, LLM pipelines, Computer Vision"
+        - "**Infrastructure :**  Linux, Git, Docker, Cloud basics"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Data Science Intern"
-        company: "Krios Info Solutions"
-        companyUrl: "https://kriosispl.com/index.html"
-        date: "Mar 2023 - May 2023"
+
+      - job: "AI Developer Intern"
+        company: "Methix"
+        companyUrl: "https://www.linkedin.com/company/mymethix/posts/?feedView=all"
+        date: "June 2025 - Dec 2025"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: Worked on a retail sales forecasting system using time-series analysis to predict product demand, and built interactive dashboards to visualize insights and streamline decision-making. 
+        content: |
+          Worked on a retrieval-augmented AI assistant for artists, focused on integrating internal knowledge sources, structured artist data, and cloud-based LLM pipelines on Azure.
                     
+          **Key Achievements:**
+          - Built a RAG pipelin with Azure OpenAI and LangChain over 50+ internal documents stored in Azure Blob Storage.
+          - Implemented prompt-driven retrieval and NoSQL queries over 200+ JSON artist profiles in Azure Cosmos DB.
+          - Tuned Azure deploymeents and inference settings to optimize AI search pipelines and reduce cloud costs.
 
-                Learnings -
-
-                - Experience with working on Timeseries Data
-
-                - Honed my skills in Python, Power BI, Data Pre-processing and Handling 
-
-                - Collaborating in a team in a Professional Setting
+          **Skills Developed:** Azure OpenAI, LangChain, Retrieval-Augmented Generation, Azure Cloud, CI/CD
 
 
       - job: "SMO Intern"
@@ -213,12 +206,34 @@ params:
           enable: true
           content: 
         content: |
-          Improved front-end performance by debugging and resolving issues in JavaScript, HTML/CSS, and Angular, enhancing user experience. Implemented unit testing with Jest to automate GUI validation, reducing testing time and accelerating feature development.
+          Enhanced front-end performance by debugging and fixing production UI issues, and implemented unit tests to automate GUI validation, reducing manual testing and speeding up feature iterations.
+          
+          **Key Achievements:**
+          - Diagnosed and fixed front-end performance and rendering issues in production Angular components.
+          - Added unit tests with Jest to automate GUI validation and reduce manual testing effort.
+          
+          **Skills Developed:** Angular, JavaScript, HTML/CSS, Jest
 
-          Learnings - 
-          - Experience in Web Technologies like Angular, HTML, CSS and JavaScript and Go language
-          - Gained exposure to telecom infrastructure, including ORAN architecture and cellular network principles.
-          - Taking accountability and working in tight deadlines
+
+      - job: "Data Science Intern"
+        company: "Krios Info Solutions"
+        companyUrl: "https://kriosispl.com/index.html"
+        date: "Mar 2023 - May 2023"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |
+          Developed a retail sales forecasting system using advanced time-series analysis to predict product demand with high accuracy. Created interactive Power BI dashboards that transformed complex data into actionable insights for stakeholders.
+                    
+          **Key Achievements:**
+          - Prepared and transformed historical sales data for 300+ SKUs into a model-ready dataset.
+          - Assisted in evaluating forecasting models through validation, hyperparameter tuning, and error analysis.
+          - Built Power BI dashboards to compare SKU-level forecasts with historical sales and highlight seasonal trends.
+
+          
+          **Skills Developed:** Python, Power BI, Time Series Analysis, Data Preprocessing
+
 
 
   # Education
@@ -229,17 +244,25 @@ params:
     items:
       - title: "Master of Science in Data Science"
         school:
-          name: "Indiana University"
-          url: "https://bloomington.iu.edu/index.html"
+          name: "Indiana University, Bloomington"
+          # url: "https://bloomington.iu.edu/index.html"
         date: "2024 - 2026"
-        GPA: "3.6 out of 4.0"
+        GPA: "3.8 out of 4.0"
         content: |-
-          Coursework
+          **Relevant Coursework:**
+          - Research in Multi-Agent Systems and Reinforcement Learning
           - Computer Vision
-          - Machine Learning
-          - Deeplearning
-          - Big Data Analytics
+          - Applied Machine Learning
+          - Information Visualization
+          - Management, Access and Use of Big Data
           - Statistics
+          - Advanced Database Technologies
+        featuredLink:
+          enable: true
+          name: "View Academic Record"
+          url: "https://drive.google.com/file/d/1AWM9YvbbD8M5D7mOGXu64U-fMvym-ilk/view?usp=sharing"
+          # download: true
+          newPage: true
 
       - title: "Bachelor of Engineering in AI and Data Science"
         school:
@@ -248,15 +271,16 @@ params:
         date: "2020 - 2024"
         GPA: "3.6 out of 4.0"
         content: |-
-          Coursework
-          - DSA
-          - Machine Learning
-          - Deeplearning
+          **Relevant Coursework:**
+          - Software Engineering
+          - Data Structures & Algorithms
+          - Machine Learning & Deep Learning
           - Big Data Analytics
+          - Database Management Systems
 
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "View Academic Record"
           url: "https://drive.google.com/file/d/1IWX800R2BTD_0p6wlrdE-5ujkn2BjH8W/view?usp=sharing"
           # download: true
           newPage: true
@@ -267,11 +291,14 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Honorable mention in the InnoQuest 2025
+        content: Recieved an honorable mention in the InnoQuest 2025 hosted by the Shoemaker Innovation Center at Indiana University for building an AI Assistant builder which enables SMBs to get onboard with using AI on their data with 3-4 simple steps. 
+        image: /images/innoquest.jpg
       - title: GFG Hackathon Winner
-        content:  Led a team to victory in the GFG Hackathon, developing a solution for Personal Finance Management.
+        content: Won the GeeksforGeeks Hackathon by building a personal finance management application with AI-based voice-to-text expense logging and expense forecasting features
         image: /images/hackathon.jpg
       - title: TEDx Curator
-        content:  Curated a TEDx event, collaborating with speakers and coordinating logistics to deliver impactful talks to audience.
+        content: Organized a TEDx event by coordinating speakers and logistics, delivering talks to an audience of 500+ attendees.
         image: /images/Tedx4.png
       
 
@@ -280,32 +307,72 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Yafa - Personal Finance Manager
-        content: A finance app with AI-enabled voice recognition and NLP for seamless expense tracking. It offers detailed expense analysis and investment recommendations.
+
+      - title: SOFI 2035
+        content: Built an interactive dashboard for the Clent The Millenium Project, enabling users to explore global development trends across economic, social, environmental, governance, and technology indicators through dynamic visualizations and scenario analysis. 
+        image: /images/sofi.png
+        # featured:
+        #   name: View on GitHub
+        #   link: https://github.com/vedanthirekar/SOFI-2035-Info-Viz-Project
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/SOFI-2035-Info-Viz-Project
+            name: "GitHub"
+          - icon: fas fa-external-link-alt
+            url: https://sofi2035.pythonanywhere.com/
+            name: "Live Demo"
+        badges:
+          - "Data Visualization"
+          - "Plotly"
+          - "Data Pre-Processing"
+          
+
+  
+
+      - title: Healthcare Data Pipeline
+        content: Focusing on the Data Pipelines and Workflow Orchestration module, this project implements an
+          end-to-end automated ETL pipeline that detects incoming FHIR patient bundles, extracts
+          information, and outputs structured CSV files ready for downstream analytics and visualization
+          tools like Tableau or Power BI.
+        image: /images/healthcare.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/healthcare-data-pipeline
+            name: "GitHub"
+          # - icon: fas fa-external-link-alt
+          #   url: https://your-yafa-demo-url.com
+          #   name: "Live Demo"
+        badges:
+          - "Airflow"
+          - "PySpark"
+          - "Data Engineering"
+          - "FHIR HL7 Data Standards"
+
+      - title: Yafa - AI-Powered Personal Finance Manager
+        content: An intelligent finance application featuring AI-enabled voice recognition and NLP for seamless expense tracking. Provides detailed expense analysis, spending patterns, and personalized investment recommendations to help users make smarter financial decisions.
         image: /images/yafa.png
-        featured:
-          name: Link
-          link: https://github.com/vedanthirekar/Yafa-Personal-Finance-Manager
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/Yafa-Personal-Finance-Manager
+            name: "GitHub"
+          # - icon: fas fa-external-link-alt
+          #   url: https://your-yafa-demo-url.com
+          #   name: "Live Demo"
         badges:
           - "NLP"
+          - "AI/ML"
           - "Power BI"
           - "SQL"
-        # links:
-        #   - icon: fa fa-envelope
-        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/hugo-profile
-        #   - icon: fab fa-twitter
-        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "Python"
 
-      - title: Optical Music Recogniton
-        content: Detect the Music notes from images of Music Sheets and digitalize them. 
+      - title: Optical Music Recognition System
+        content: Developed a computer vision system to detect and digitalize music notes from images of sheet music. Leverages advanced image processing and pattern recognition to convert physical music sheets into digital formats, making music more accessible and editable.
         image: /images/omr.jpg
-        # featured:
-        #   name: Link
-        #   link: https://django-converter.herokuapp.com
         badges:
           - "Computer Vision"
+          - "OpenCV"
+          - "Python"
+          - "Image Processing"
       
          
 
@@ -313,9 +380,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:vedanthirekar@gmail.com
+    content: I'm always open to discussing new opportunities, collaborations, or just having a chat about data science and technology. Whether you have a question, project idea, or just want to connect, feel free to reach out!
+    btnName: Get In Touch
+    btnLink: mailto:hirekarvedant@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
