@@ -631,6 +631,10 @@ header {
   border-color: var(--primary-color) !important;
 }
 
+#education .card {
+  padding: 0rem !important;
+}
+
 #projects .card-head {
   height: 180px !important;
   overflow: hidden !important;
