@@ -348,6 +348,23 @@ params:
           - "Data Engineering"
           - "FHIR HL7 Data Standards"
 
+      - title: Yanck
+        content: YANCK (Yet Another No-Code Killer) is a product focused on resource-constrained SMBs, enabling them to create AI assistants on their own data through a simple, guided workflow that includes model selection, data upload, and prompt configuration
+        image: /images/Yanck.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/vedanthirekar/Yanck
+            name: "GitHub"
+          # - icon: fas fa-external-link-alt
+          #   url: https://your-yafa-demo-url.com
+          #   name: "Live Demo"
+        badges:
+          - "Agentic AI"
+          - "LangChain"
+          - "RAG"
+          - "LLMs"
+
+
       - title: Yafa - AI-Powered Personal Finance Manager
         content: An intelligent finance application featuring AI-enabled voice recognition and NLP for seamless expense tracking. Provides detailed expense analysis, spending patterns, and personalized investment recommendations to help users make smarter financial decisions.
         image: /images/yafa.png
