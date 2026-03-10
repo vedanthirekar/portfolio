@@ -188,7 +188,7 @@ params:
           Worked on a retrieval-augmented AI assistant for artists, focused on integrating internal knowledge sources, structured artist data, and cloud-based LLM pipelines on Azure.
                     
           **Key Achievements:**
-          - Built a RAG pipeline with Azure OpenAI and LangChain over 50+ internal documents stored in Azure Blob Storage.
+          - Built a RAG pipeline with Azure OpenAI and LangChain over 100+ internal documents stored in Azure Blob Storage.
           - Implemented prompt-driven retrieval and NoSQL queries over 200+ JSON artist profiles in Azure Cosmos DB.
           - Tuned Azure deploymeents and inference settings to optimize AI search pipelines and reduce cloud costs.
 
